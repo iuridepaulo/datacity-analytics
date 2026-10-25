@@ -1,0 +1,45 @@
+{
+  "qualidade": {
+    "ausentes_antes": {
+      "id_viagem": 0,
+      "data": 0,
+      "hora": 0,
+      "linha": 0,
+      "veiculo": 0,
+      "regiao": 0,
+      "passageiros": 1,
+      "duracao_minutos": 0,
+      "atraso_minutos": 0,
+      "avaliacao": 1,
+      "tipo_ocorrencia": 0
+    },
+    "duplicatas_logicas": 1,
+    "horas_invalidas": 1,
+    "lotacao_acima_capacidade": 703,
+    "passageiros_impossiveis": 1,
+    "duracoes_invalidas": 1,
+    "adiantamentos": 3472,
+    "linhas_apos_limpeza": 19999
+  },
+  "resumo": {
+    "viagens": 19999,
+    "passageiros_medios": 37.07896184427664,
+    "duracao_media": 42.175567556755674,
+    "atraso_medio": 7.5348767438371915,
+    "atraso_mediano": 7.0,
+    "avaliacao_media": 3.8695369536953694,
+    "correlacao_atraso_avaliacao": -0.6332694773135596,
+    "lotacao_acima_capacidade": 702
+  },
+  "perguntas_adicionais": {
+    "Acessibilidade: veículos acessíveis recebem demanda diferente?": "Comparar passageiros médios por acessibilidade, após cruzar veículos.",
+    "Os finais de semana têm atrasos diferentes?": {
+      "false": 7.52,
+      "true": 7.57
+    },
+    "Viagens com lotação acima da capacidade têm avaliação menor?": {
+      "false": 3.88,
+      "true": 3.68
+    }
+  }
+}
